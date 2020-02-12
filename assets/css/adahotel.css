@@ -146,6 +146,10 @@ nav ul li {
 	display: flex;
 }
 
+.bouton-resa a {
+	color: white;
+}
+
 .bouton-resa {
 	color: white;
 	background-color: grey;
@@ -184,11 +188,19 @@ caption {
 font-family: sans-serif;
 }
 
-
-
-
                         /*input pas d'espace entre input et le crochet*/
-input[type=text]   {
+input[type=text] {
 background-color: grey;
+}
 
+#footer {
+	display: flex;
+	justify-content: space-around;
+}
+
+.icone {
+	display:flex;
+	justify-content: flex-end;
+	padding:1px;
+	font-size: 180%;
 }
