@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	padding: 20px;
 }
 ol, ul {
 	list-style: none;
@@ -49,26 +50,43 @@ table {
 
 
 /*mon CSS*/
-
+/* shift-commande-slash */
 
 body {
-    font-family: 'Indie Flower', cursive;
+  font-family: 'Nunito Sans', sans-serif;
     background-color: #ece2d0;
 }
 
-
-.titre-hotel, h2, p {
-  text-align: center
+.titre-hotel {
+	font-size: 50px;
 }
 
+.titre-page,p {
+	font-size: 20px;
+}
 
+h2 {
+	font-size: 25px;
+}
 
+h3 {
+font-size: 20px;
+}
+
+.titre-hotel, h2, p {
+  text-align: center;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
 
 nav ul {
    padding-left: 100px;
    display:flex;                  /*pour mettre côte à côte la liste*/
-   justify-content: space-around;;  /*pour placer le menu: u centre, a gauche,...*/
-
+   justify-content: space-around;  /*pour placer le menu: u centre, a gauche,...*/
+	 margin-left: 2%;
+	 margin-right: 2%;
    background-color: #ece2d6;
    border-width: medium;
    border-style:solid;
@@ -78,21 +96,99 @@ nav ul {
 
 }
 
-li {
+nav ul li {
   margin:auto;
   font-size: 16px;
   padding:20px;
 }
 
-.menu-site {
-
+.picture {
+	display: flex;
+	justify-content: center;
+	margin: 5%;
 
 }
+
+.border-chambre {
+		border-width:1px;
+		border-style:solid;
+		border-color:black;
+		width: 100%;
+		margin-bottom: 1%;
+		margin-top: 3%;
+}
+/*.les-types-de-chambres p,.les-types-de-chambres h3, .les-types-de-chambres a  {
+	text-align: left;
+	margin: 0px;
+}*/
+
+.room-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 50%;
+}
+
+.detail-chambre {
+	display: flex;
+	justify-content: flex-end;
+	padding:1px;
+	width: 50%;
+}
+
+.detail-chambre ul li {
+	padding:1px;
+	list-style-type:disc;
+}
+
+
+.text-liste-chambre {
+	display: flex;
+}
+
+.bouton-resa {
+	color: white;
+	background-color: grey;
+	width: 105px;
+	height: 33px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5%;
+
+}
+
+.services {
+border: medium solid #6495ed;
+border-collapse: collapse;
+width: 50%;
+}
+th {
+font-family: monospace;
+border: thin solid #6495ed;
+width: 50%;
+padding: 5px;
+background-color: #D0E3FA;
+background-image: url(sky.jpg);
+}
+td {
+font-family: sans-serif;
+border: thin solid #6495ed;
+width: 50%;
+padding: 5px;
+text-align: center;
+background-color: #ffffff;
+}
+caption {
+font-family: sans-serif;
+}
+
 
 
 
                         /*input pas d'espace entre input et le crochet*/
 input[type=text]   {
-background-color: red;
+background-color: grey;
 
 }
