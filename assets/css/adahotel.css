@@ -49,16 +49,35 @@ table {
 }
 
 
+
 /*mon CSS*/
 /* shift-commande-slash */
+
+header {
+display: flex;
+justify-content: center;
+background-image: url("../images/bleu.jpg");
+background-repeat: no-repeat;
+background-size: auto;
+background-position: center;
+height: 200px;
+margin-bottom: 10px;
+border-radius: 50%;
+}
 
 body {
   font-family: 'Nunito Sans', sans-serif;
     background-color: #ece2d0;
 }
 
-.titre-hotel {
-	font-size: 50px;
+h1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 80px;
+	justify-content: center;
+
 }
 
 .titre-page,p {
@@ -102,6 +121,9 @@ nav ul li {
   padding:20px;
 }
 
+a {
+	color:black;
+}
 .picture {
 	display: flex;
 	justify-content: center;
@@ -201,6 +223,7 @@ background-color: grey;
 .icone {
 	display:flex;
 	justify-content: flex-end;
-	padding:1px;
+	justify-content: space-around;
+	padding:10px;
 	font-size: 180%;
 }
