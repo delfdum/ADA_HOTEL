@@ -71,13 +71,13 @@ header {
 
 
 body {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Lemonada', cursive;
     background-color: #ece2d0;
 }
 
 h1 {
 	position: absolute;
-	top:400px;
+	top:254px;
 	left: 400px;
 	z-index: 2;
 	display: flex;
@@ -86,7 +86,19 @@ h1 {
 	color: black;
 	font-size: 80px;
 	justify-content: center;
+}
 
+h6 {
+	position: absolute;
+	top:342px;
+	left: 505px;
+	z-index: 2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+	font-size: 13px;
+	justify-content: center;
 }
 
 .titre-page,p {
@@ -99,6 +111,10 @@ h2 {
 
 h3 {
 font-size: 20px;
+}
+
+.titre-hotel{
+	font-size: 50px;
 }
 
 .titre-hotel, h2, p {
